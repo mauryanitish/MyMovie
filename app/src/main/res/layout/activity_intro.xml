@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context=".activity.IntroActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient_color_background">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:id="@+id/imgView"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.32999998"
+                    app:srcCompat="@drawable/circle_gradient"
+                    android:contentDescription="@string/image" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/shapeImage"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:src="@drawable/technology"
+                    android:padding="@dimen/_5sdp"
+                    app:layout_constraintBottom_toBottomOf="@id/imgView"
+                    app:layout_constraintEnd_toEndOf="@id/imgView"
+                    app:layout_constraintStart_toStartOf="@id/imgView"
+                    app:layout_constraintTop_toTopOf="@id/imgView"
+                    app:shapeAppearanceOverlay="@style/roundImageRounder"
+                    app:strokeWidth="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/introHeading"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="38sp"
+                    android:id="@+id/tvIntroHeading"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgView"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvIntroSubHeading"
+                    android:text="@string/introSubHeading"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:layout_marginTop="12dp"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvIntroHeading"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

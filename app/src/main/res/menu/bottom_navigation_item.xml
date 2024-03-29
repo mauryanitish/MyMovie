@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/optDiscover"
+        android:icon="@drawable/discover"
+        android:iconTint="@color/white"
+        android:title="Discover"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/optSearch"
+        android:icon="@drawable/search"
+        android:iconTint="@color/white"
+        android:title="Search"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/optFavourite"
+        android:icon="@drawable/hearticon"
+        android:iconTint="@color/white"
+        android:title="Favourite"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/optProfile"
+        android:icon="@drawable/profile"
+        android:iconTint="@color/white"
+        android:title="profile"
+        app:showAsAction="ifRoom" />
+
+</menu>

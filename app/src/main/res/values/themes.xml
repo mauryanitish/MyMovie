@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyMovie" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/main_background</item>
+    </style>
+
+    <style name="Theme.MyMovie" parent="Base.Theme.MyMovie" />
+    
+    <style name="roundImageRounder">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="floating" parent="Widget.Design.FloatingActionButton">
+            <item name="android:foreground">@drawable/floating_background</item>
+    </style>
+    <style name="roundImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_8sdp</item>
+    </style>
+    <style name="searchBarCustom" parent="ThemeOverlay.Material3.Search">
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:editTextColor">@color/white</item>
+    </style>
+</resources>

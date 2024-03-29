@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "464997909071",
+    "firebase_url": "https://learndev-1720c-default-rtdb.firebaseio.com",
+    "project_id": "learndev-1720c",
+    "storage_bucket": "learndev-1720c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464997909071:android:2a5402bc10db86e97c203a",
+        "android_client_info": {
+          "package_name": "com.nitish.firebaseexample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIo5uA6kS6CE1kTas-CupfJtMYtIM06eY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464997909071:android:b23a4bdbeb9ab94d7c203a",
+        "android_client_info": {
+          "package_name": "com.nitish.mymovie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIo5uA6kS6CE1kTas-CupfJtMYtIM06eY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
