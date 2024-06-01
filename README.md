@@ -32,11 +32,10 @@
 <body>
     <h1><span class="emoji">🎬</span> MovieApp: Your Personal Movie Companion <span class="emoji">🎥</span></h1>
     <p>Welcome to MovieApp, your ultimate destination for everything movies! Whether you're a casual viewer or a die-hard cinephile, MovieApp offers a rich and engaging experience to explore, discover, and manage your favorite films.</p>
-    
     <div class="section">
         <h2><span class="emoji">✨</span> Features</h2>
         <ul>
-            <li><span class="emoji">🔍</span> <strong>Search Movies:</strong> Dive into our vast database to find movies by title. Our intuitive search makes it easy to find exactly what you're looking for.</li>
+            <li><span class="emoji">🔍</span> <strong>Search Movies:</strong> Dive into our vast database to find movies by title. Our intuitive search makes it easy to                     find exactly what you're looking for.</li>
             <li><span class="emoji">🎞️</span> <strong>Detailed Movie Info:</strong> Get all the details you need at a glance. Each movie page showcases the poster, name, rating, release date, duration, and more!</li>
             <li><span class="emoji">❤️</span> <strong>Favorite Movies:</strong> Keep track of the movies you love. Add films to your favorites list for quick access anytime.</li>
             <li><span class="emoji">👤</span> <strong>User Authentication:</strong> Secure and straightforward email-based authentication powered by Firebase. Your data is safe with us.</li>
@@ -44,22 +43,18 @@
             <li><span class="emoji">🔒</span> <strong>Logout:</strong> One-tap logout ensures your account is secure when you're done.</li>
         </ul>
     </div>
-    
     <div class="section">
         <h2><span class="emoji">📸</span> Screenshots</h2>
         <p><em>Include vibrant screenshots of your app here to visually showcase the features and user interface.</em></p>
     </div>
-    
     <div class="section">
         <h2><span class="emoji">🚀</span> Getting Started</h2>
         <p>Follow these simple steps to set up and run MovieApp on your local machine.</p>
-        
         <h3>Prerequisites</h3>
         <ul>
             <li><strong>Node.js</strong> and <strong>npm</strong> installed on your machine.</li>
             <li><strong>Firebase</strong> account.</li>
         </ul>
-        
         <h3>Installation</h3>
         <ol>
             <li><strong>Clone the repository:</strong>
@@ -80,7 +75,6 @@ cd MovieApp</code></pre>
             </li>
         </ol>
     </div>
-    
     <div class="section">
         <h2><span class="emoji">🛠️</span> Usage</h2>
         <ol>
@@ -92,7 +86,6 @@ cd MovieApp</code></pre>
             <li><strong>Logout:</strong> Securely log out of your account with a single tap.</li>
         </ol>
     </div>
-    
     <div class="section">
         <h2><span class="emoji">🔧</span> Technologies Used</h2>
         <ul>
@@ -100,8 +93,7 @@ cd MovieApp</code></pre>
             <li><strong>Backend:</strong> Firebase for authentication and real-time database.</li>
         </ul>
     </div>
-    
-    <div class="section">
+    <diz class="section">
         <h2><span class="emoji">👥</span> Contributing</h2>
         <p>We love contributions! Here's how you can help make MovieApp even better:</p>
         <ol>
@@ -118,12 +110,10 @@ cd MovieApp</code></pre>
             <li><strong>Open a Pull Request</strong> and tell us about your changes.</li>
         </ol>
     </div>
-    
     <div class="section">
         <h2><span class="emoji">📄</span> License</h2>
         <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
     </div>
-    
     <p>Join us on this cinematic journey and help us make MovieApp the go-to app for movie lovers everywhere!</p>
 </body>
 </html>
