@@ -47,7 +47,7 @@
         <h2><span class="emoji">📸</span> Screenshots</h2>
         <p><em>Include vibrant screenshots of your app here to visually showcase the features and user interface.</em></p>
     </div>
-    <div class="section">
+<!--     <div class="section">
         <h2><span class="emoji">🚀</span> Getting Started</h2>
         <p>Follow these simple steps to set up and run MovieApp on your local machine.</p>
         <h3>Prerequisites</h3>
@@ -74,7 +74,7 @@ cd MovieApp</code></pre>
                 <pre><code>npm start</code></pre>
             </li>
         </ol>
-    </div>
+    </div> -->
     <div class="section">
         <h2><span class="emoji">🛠️</span> Usage</h2>
         <ol>
