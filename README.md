@@ -43,8 +43,12 @@
         </ul>
     </div>
     <div class="section">
-        <h2><span class="emoji">📸</span> Screenshots</h2>
-        <p><em>Include vibrant screenshots of your app here to visually showcase the features and user interface.</em></p>
+        <h2><span class="emoji">📸</span> Project Video</h2>
+       <video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
     </div>
 <!--     <div class="section">
         <h2><span class="emoji">🚀</span> Getting Started</h2>
