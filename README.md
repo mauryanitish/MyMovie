@@ -44,11 +44,7 @@
     </div>
     <div class="section">
         <h2><span class="emoji">📸</span> Project Video</h2>
-       <video width="320" height="240" controls>
-  <source src="Screen_recording_20240601_124810.mp4" type="video/mp4">
-  <source src="Screen_recording_20240601_124810.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
+      <a href="Screen_recording_20240601_124810.mp4"> download video </a>
     </div>
 <!--     <div class="section">
         <h2><span class="emoji">🚀</span> Getting Started</h2>
