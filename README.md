@@ -89,11 +89,11 @@ cd MovieApp</code></pre>
     <div class="section">
         <h2><span class="emoji">🔧</span> Technologies Used</h2>
         <ul>
-            <li><strong>Frontend:</strong> React Native for a smooth, native app experience.</li>
-            <li><strong>Backend:</strong> Firebase for authentication and real-time database.</li>
+            <li><strong>Frontend:</strong> Kotlin, XML, Android studio.</li>
+            <li><strong>Backend:</strong> Firebase for authentication and API for movies data. Store favourite movies in local databse of Android using <strong>Room Database</strong> framework.</li>
         </ul>
     </div>
-    <diz class="section">
+<!--     <diz class="section">
         <h2><span class="emoji">👥</span> Contributing</h2>
         <p>We love contributions! Here's how you can help make MovieApp even better:</p>
         <ol>
@@ -109,7 +109,7 @@ cd MovieApp</code></pre>
             </li>
             <li><strong>Open a Pull Request</strong> and tell us about your changes.</li>
         </ol>
-    </div>
+    </div> -->
     <div class="section">
         <h2><span class="emoji">📄</span> License</h2>
         <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
